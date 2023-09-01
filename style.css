@@ -118,6 +118,9 @@ body {
   border: none;
   text-decoration: none;
 }
+.main-btn:hover{
+  background-color: #153464;
+}
 .main-btn2 {
   background: #22427a;
   background: rgba(34, 66, 122, 1);
@@ -302,7 +305,7 @@ select:focus {
     font-size: 14px;
   }
   .sign-input {
-    font-size: 14px;
+    font-size: 16px;
   }
   .main {
     min-height: calc(100vh - 190px);
@@ -329,6 +332,9 @@ select:focus {
     font-size: 17px;
     letter-spacing: 0.86px;
     color: rgb(0, 0, 0);
+  }
+  .content-booking{
+    padding: 20px 0px !important;
   }
 }
 
