@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/css-pro-layout@1.1.0/dist/css/css-pro-layout.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <div class="layout has-sidebar fixed-sidebar fixed-header">
+        <!-- ---------------------Side bar-------------- -->
+        <aside id="sidebar" class="sidebar break-point-lg has-bg-image">
+
+            <div class="sidebar-layout">
+                <div class="sidebar-header d-flex justify-content-center">
+
+                    <a id="btn-toggle2" href="#" class="sidebar-toggler break-point-lg">
+                    </a>
+                    <div class="d-flex justify-content-center align-items-center">
+
+                        <img src="Asset 1.png" alt="" class="img-fluid logo-dashboard">
+                    </div>
+                </div>
+
+                <div class="sidebar-content">
+                    <nav class="menu open-current-submenu">
+                        <ul>
+                            <li class="menu-item">
+                                <a href="index.html">
+                                    <span class="menu-icon">
+                                        <svg height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256"
+                                            height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+                                            <defs>
+                                            </defs>
+                                            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
+                                                transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                                <path
+                                                    d="M 35.813 54.013 H 4.514 C 2.025 54.013 0 51.987 0 49.498 V 4.514 C 0 2.025 2.025 0 4.514 0 h 31.299 c 2.489 0 4.514 2.025 4.514 4.514 v 44.984 C 40.328 51.987 38.303 54.013 35.813 54.013 z"
+                                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: white; fill-rule: nonzero; opacity: 1;"
+                                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                <path
+                                                    d="M 35.813 90 H 4.514 C 2.025 90 0 87.975 0 85.485 V 69.741 c 0 -2.489 2.025 -4.515 4.514 -4.515 h 31.299 c 2.489 0 4.514 2.025 4.514 4.515 v 15.744 C 40.328 87.975 38.303 90 35.813 90 z"
+                                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: white; fill-rule: nonzero; opacity: 1;"
+                                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                <path
+                                                    d="M 85.485 90 H 54.187 c -2.489 0 -4.515 -2.025 -4.515 -4.515 V 40.501 c 0 -2.489 2.025 -4.514 4.515 -4.514 h 31.299 c 2.489 0 4.515 2.025 4.515 4.514 v 44.984 C 90 87.975 87.975 90 85.485 90 z"
+                                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: white; fill-rule: nonzero; opacity: 1;"
+                                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                                <path
+                                                    d="M 85.485 24.773 H 54.187 c -2.489 0 -4.515 -2.025 -4.515 -4.515 V 4.514 C 49.672 2.025 51.697 0 54.187 0 h 31.299 C 87.975 0 90 2.025 90 4.514 v 15.745 C 90 22.748 87.975 24.773 85.485 24.773 z"
+                                                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: white; fill-rule: nonzero; opacity: 1;"
+                                                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span class="menu-title text-dark-blue mt-1">Dashboard</span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                        <div class="menu-item pt-4 pb-3 ">
+                            <span class="ps-4 f-14 w-500 text-light-white ls-3 menu-heading ">Actions</span>
+                        </div>
+
+                        <ul>
+
+                            <li class="menu-item">
+                                <a href="orders.html">
+                                    <span class="menu-icon">
+                                        <i class="bi bi-person-vcard-fill"></i>
+                                    </span>
+                                    <span class="menu-title">Orders</span>
+                                </a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="wallet.html">
+                                    <span class="menu-icon">
+                                        <i class="bi bi-wallet-fill"></i>
+                                    </span>
+                                    <span class="menu-title">Wallet</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="help.html">
+                                    <span class="menu-icon">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2"
+                                            viewBox="0 0 35.15 35.15" height="20px">
+                                            <defs>
+                                                <style>
+                                                    .cls-12 {
+                                                        fill: white;
+                                                    }
+                                                </style>
+                                            </defs>
+                                            <g id="Layer_1-2" data-name="Layer 1">
+                                                <g>
+                                                    <path class="cls-12"
+                                                        d="m31.18,6.45l-6.73,6.73c.81,1.27,1.28,2.77,1.28,4.39s-.49,3.18-1.33,4.46l6.73,6.73c2.51-3.04,4.02-6.94,4.02-11.19s-1.49-8.09-3.97-11.12Z" />
+                                                    <path class="cls-12"
+                                                        d="m13.12,10.75c1.28-.84,2.81-1.33,4.46-1.33s3.15.48,4.42,1.31l6.73-6.73c-3.03-2.5-6.92-3.99-11.16-3.99S9.43,1.51,6.39,4.02l6.73,6.73Z" />
+                                                    <path class="cls-12"
+                                                        d="m10.73,22c-.82-1.27-1.31-2.79-1.31-4.42s.46-3.09,1.26-4.35L3.94,6.49C1.48,9.51,0,13.37,0,17.58s1.5,8.12,3.99,11.16l6.73-6.73Z" />
+                                                    <path class="cls-12"
+                                                        d="m21.93,24.47c-1.26.8-2.75,1.26-4.35,1.26s-3.12-.47-4.39-1.28l-6.73,6.73c3.03,2.48,6.9,3.97,11.12,3.97s8.06-1.48,11.09-3.94l-6.74-6.74Z" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span class="menu-title">Help</span>
+                                </a>
+                            </li>
+                        </ul>
+
+
+                        <div class="menu-item pt-4 pb-3 ">
+                            <span class="ps-4 f-14 w-500 text-light-white ls-3 menu-heading ">Account</span>
+                        </div>
+
+                        <ul>
+
+                            <li class="menu-item">
+                                <a href="account-info.html" class="active-tab">
+                                    <span class="menu-icon">
+                                        <i class="bi bi-person-bounding-box"></i>
+                                    </span>
+                                    <span class="menu-title">Account Info</span>
+                                </a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="security.html">
+                                    <span class="menu-icon">
+                                        <i class="bi bi-shield-fill-exclamation"></i>
+                                    </span>
+                                    <span class="menu-title">Security</span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+
+                    </nav>
+                </div>
+            </div>
+        </aside>
+
+        <!-- --------------------Main Side-------------- -->
+        <div id="overlay" class="overlay"></div>
+        <div class="layout">
+            <!-- ----------------Header--------------- -->
+            <header class="header d-flex justify-content-between">
+                <a id="btn-collapse" href="#" class="align-self-center ">
+                    <i class="bi bi-filter-left  btn-head"></i>
+                </a>
+                <a id="btn-toggle" href="#" class="sidebar-toggler break-point-lg align-self-center">
+                    <i class="bi bi-filter-left   btn-head"></i>
+                </a>
+
+
+                <div class="d-flex  user-account px-2">
+
+                    <div class="user-icon">
+                        <!-- <i class="bi bi-person "></i> -->
+                        <img src="avatar.svg" alt="">
+                    </div>
+                    <div class="dropdown profile-dropdown">
+                        <button class=" dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Alexander
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li class="mb-2"><a class="dropdown-item" href="account-info.html"><i
+                                        class="bi bi-person-bounding-box me-3"></i>Manage Account</a>
+                            </li>
+                            <li><a class="dropdown-item" href="login.html"><i
+                                        class="bi bi-box-arrow-left me-3"></i>Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <!-- -----------Main Contents----------- -->
+            <main class="content ">
+                <div class="container-fluid ">
+                    <div class="row ">
+                        <div class="col-lg-11 mx-auto">
+                            <div class="main-section w-100 mb-5">
+                                <h1 class="main-heading mb-4 font-open mt-3">
+                                    Account Info
+                                </h1>
+                                <div class="display-pictute">
+                                    <p class="mb-0"><img class="edit-img   " src="Asset 2.png" id="output" /></p>
+                                    <p class="mb-0"><input type="file" accept="image/*" name="image" id="file"
+                                            onchange="loadFile(event)" style="display: none;"></p>
+                                    <button class="upload-img-btn ">
+                                        <label for="file" class="">
+                                            <img src="Asset 3.png" alt="">
+                                        </label>
+                                    </button>
+                                </div>
+                                <h2 class="secondry-heading mt-4 mb-0 pb-0 font-open">
+                                    Basic Info
+                                </h2>
+                                <div class="info-box  mt-3 w-100">
+                                    <a href="update-name.html"
+                                        class="d-flex justify-content-between align-items-center ">
+                                        <div>
+                                            <div class="info-box-label">Name</div>
+                                            <p class="info-box-value mb-0 pb-0">Alexander Caleb </p>
+                                        </div>
+                                        <div class="arrow">
+                                            <?xml version="1.0" encoding="UTF-8"?>
+                                            <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 11.74 19.38" height="10px">
+                                                <defs>
+                                                    <style>
+                                                        .cls-1 {
+                                                            fill: #afafb0;
+                                                        }
+                                                    </style>
+                                                </defs>
+                                                <g id="Layer_1-2" data-name="Layer 1">
+                                                    <g id="Layer_3" data-name="Layer 3">
+                                                        <path class="cls-1"
+                                                            d="m6.65,9.71L.63,15.73c-.84.83-.84,2.18,0,3.02.83.84,2.18.84,3.02,0,0,0,7.34-7.4,7.4-7.47.43-.38.7-1.57.7-1.57,0,0-.24-1.12-.63-1.51-.07-.1-7.47-7.57-7.47-7.57-.83-.84-2.18-.84-3.02,0-.84.83-.84,2.18,0,3.02l6.02,6.06Z" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="info-box  mt-3 w-100">
+                                    <a href="update-number.html"
+                                        class="d-flex justify-content-between align-items-center ">
+                                        <div>
+                                            <div class="info-box-label">Phone Number</div>
+                                            <p class="info-box-value mb-0 pb-0">+1 (305) 999-7777 <i
+                                                    class="bi bi-check-circle-fill ms-3" style="color: #088949;"></i>
+                                            </p>
+                                        </div>
+                                        <div class="arrow">
+                                            <?xml version="1.0" encoding="UTF-8"?>
+                                            <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 11.74 19.38" height="10px">
+                                                <defs>
+                                                    <style>
+                                                        .cls-1 {
+                                                            fill: #afafb0;
+                                                        }
+                                                    </style>
+                                                </defs>
+                                                <g id="Layer_1-2" data-name="Layer 1">
+                                                    <g id="Layer_3" data-name="Layer 3">
+                                                        <path class="cls-1"
+                                                            d="m6.65,9.71L.63,15.73c-.84.83-.84,2.18,0,3.02.83.84,2.18.84,3.02,0,0,0,7.34-7.4,7.4-7.47.43-.38.7-1.57.7-1.57,0,0-.24-1.12-.63-1.51-.07-.1-7.47-7.57-7.47-7.57-.83-.84-2.18-.84-3.02,0-.84.83-.84,2.18,0,3.02l6.02,6.06Z" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="info-box  mt-3 w-100">
+                                    <a href="update-email.html"
+                                        class="d-flex justify-content-between align-items-center ">
+                                        <div>
+                                            <div class="info-box-label">Email</div>
+                                            <p class="info-box-value mb-0 pb-0">alexander@alexandercaleb.com <i
+                                                    class="bi bi-check-circle-fill ms-3" style="color: #088949;"></i>
+                                            </p>
+                                        </div>
+                                        <div class="arrow">
+                                            <?xml version="1.0" encoding="UTF-8"?>
+                                            <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 11.74 19.38" height="10px">
+                                                <defs>
+                                                    <style>
+                                                        .cls-1 {
+                                                            fill: #afafb0;
+                                                        }
+                                                    </style>
+                                                </defs>
+                                                <g id="Layer_1-2" data-name="Layer 1">
+                                                    <g id="Layer_3" data-name="Layer 3">
+                                                        <path class="cls-1"
+                                                            d="m6.65,9.71L.63,15.73c-.84.83-.84,2.18,0,3.02.83.84,2.18.84,3.02,0,0,0,7.34-7.4,7.4-7.47.43-.38.7-1.57.7-1.57,0,0-.24-1.12-.63-1.51-.07-.1-7.47-7.57-7.47-7.57-.83-.84-2.18-.84-3.02,0-.84.83-.84,2.18,0,3.02l6.02,6.06Z" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <button class="main-btn mt-3 bg-green">Book a Service</button> -->
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <div class="overlay"></div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"
+        integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="layout.js"></script>
+
+    <script>
+        // upload image of student or teachers data
+        var loadFile = function (event) {
+            var image = document.getElementById('output');
+            image.src = URL.createObjectURL(event.target.files[0]);
+        };
+    </script>
+</body>
+
+</html>
