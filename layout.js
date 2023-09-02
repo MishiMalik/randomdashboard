@@ -14,12 +14,10 @@ document.getElementById("btn-collapse").addEventListener("click", () => {
  */
 document.getElementById("btn-toggle").addEventListener("click", () => {
   SIDEBAR_EL.classList.toggle("toggled");
-
 });
 
 document.getElementById("btn-toggle2").addEventListener("click", () => {
   SIDEBAR_EL.classList.toggle("toggled");
-
 });
 /**
  * toggle sidebar on overlay click
@@ -27,6 +25,3 @@ document.getElementById("btn-toggle2").addEventListener("click", () => {
 document.getElementById("overlay").addEventListener("click", () => {
   SIDEBAR_EL.classList.toggle("toggled");
 });
-
-
-

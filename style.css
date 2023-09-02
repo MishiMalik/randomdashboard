@@ -118,7 +118,7 @@ body {
   border: none;
   text-decoration: none;
 }
-.main-btn:hover{
+.main-btn:hover {
   background-color: #153464;
 }
 .main-btn2 {
@@ -237,24 +237,23 @@ select:focus {
 }
 
 /* ==================================================================my orders */
-.search-row{
+.search-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.search-input{
+.search-input {
   position: relative;
   overflow: hidden;
-  
 }
-.search-input input{
+.search-input input {
   border: 1px solid #ccc;
   padding: 7px 10px;
   border-radius: 6px;
   font-size: 14px;
   width: 280px;
 }
-.search-input .serach-icon{
+.search-input .serach-icon {
   position: absolute;
   top: 0px;
   right: 0;
@@ -265,26 +264,12 @@ select:focus {
   justify-content: center;
   align-items: center;
   z-index: 10;
-  border-radius:0 6px 6px 0;
+  border-radius: 0 6px 6px 0;
 }
-.search-input i{
+.search-input i {
   color: white;
   font-size: 16px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Style the tab */
 .tab {
@@ -331,14 +316,14 @@ select:focus {
   margin-top: 20px;
   /* background-color:#ddd ; */
 }
-.order-details-card{
-  background-color: #E9EBEC;
+.order-details-card {
+  background-color: #e9ebec;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-.order-btn{
+.order-btn {
   background-color: #1f427b;
   border: none;
   color: white;
@@ -350,10 +335,10 @@ select:focus {
   width: 230px;
   border: 2px solid #1f427b !important;
 }
-.order-btn-blank{
+.order-btn-blank {
   background-color: transparent;
   border: none;
-  color:#1f427b;
+  color: #1f427b;
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -363,8 +348,7 @@ select:focus {
   border: 2px solid #1f427b !important;
   text-align: center;
 }
-.status-col{
-  
+.status-col {
   color: white;
   font-size: 14px;
   font-weight: 600;
@@ -372,45 +356,44 @@ select:focus {
   border-radius: 4px;
   height: fit-content;
 }
-.pending{
-  background-color: #FED82B;
+.pending {
+  background-color: #fed82b;
 }
-.progress{
-background-color: #2e5597;
+.progress {
+  background-color: #2e5597;
 }
-.approved{
-  background-color: #5F9C79;
+.approved {
+  background-color: #5f9c79;
 }
-.cancelled{
+.cancelled {
   background-color: rgb(243, 31, 31);
 }
-.returned{
+.returned {
   background-color: rgb(201, 117, 8);
 }
 .order-details p,
-.order-details a{
+.order-details a {
   font-size: 14px;
   font-weight: 500;
 }
-.order-details h3{
+.order-details h3 {
   font-size: 16px;
   font-weight: 600;
-  
 }
-.pagination .page-item .page-link{
+.pagination .page-item .page-link {
   color: black;
   font-size: 16px;
   font-weight: 600;
 }
 
-.active-page .page-link{
+.active-page .page-link {
   color: white !important;
   background-color: #153464 !important;
 }
-.page-link:focus{
+.page-link:focus {
   box-shadow: none !important;
 }
-.booking-label{
+.booking-label {
   width: 300px;
   text-align: left;
   font-size: 16px;
@@ -418,23 +401,22 @@ background-color: #2e5597;
   background-color: #ccc;
   padding: 6px 10px;
   border-radius: 4px;
-
 }
-.booking-input{
+.booking-input {
   font-size: 16px;
   border-radius: 4px;
   border: 1px solid #ccc;
   margin-left: 15px !important;
 }
-.booking-value{
+.booking-value {
   font-size: 16px;
   font-weight: 500;
   width: 100%;
   margin-left: 15px !important;
   text-align: justify;
 }
-.request-box{
-  padding:5px 15px 15px 15px;
+.request-box {
+  padding: 5px 15px 15px 15px;
   border: 1px solid #777676 !important;
   border-radius: 10px;
 }
@@ -474,174 +456,173 @@ background-color: #2e5597;
         border-radius: 0px;
         margin-left: 4px;
         background-color: var(--primary); } */
-        @media only screen and (max-width:1100px){
-          .order-details-card{
-            background-color: #E9EBEC;
-            padding: 20px;
-            display: flex;
-            align-items:flex-start;
-            flex-direction: column;
-          }
-        
-         .order-btns{
-          width: 100%;
-          justify-content: center !important;
-          align-items: flex-start !important;
-          margin-top: 20px;
-         }
-         .order-text{
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: self-start;
-         }
-         .status-col{
-          width: fit-content;
-          margin-bottom: 15px;
-         }
-        }
-        @media only screen and (min-width: 1700px) {
-          .sign-label {
-            font-size: 20px;
-          }
-          .sign-input {
-            font-size: 25px;
-            height: 68px;
-            border-radius: 10px;
-          }
-        
-          .main-btn {
-            background: rgba(34, 66, 122, 1);
-            border-radius: 21px;
-            -moz-border-radius: 21px;
-            -webkit-border-radius: 21px;
-            font-size: 25px;
-            letter-spacing: 0.65px;
-            color: #ffffff;
-          }
-          .ask-acount {
-            font-size: 20px;
-          }
-        
-          .ask-acount a {
-            font-size: 22px;
-          }
-          .logo {
-            height: 100px;
-          }
-          .main-heading {
-            font-size: 45px;
-          }
-          .sign-text {
-            font-family: Bahnschrift;
-            font-size: 33px;
-            letter-spacing: 0.86px;
-            color: rgb(0, 0, 0);
-          }
-        }
-        @media only screen and (max-width: 786px){
-          .tab {
-            overflow-x: auto;
-            
-          }
-          .tab button{
-            white-space: nowrap;
-          }
-        }
-        @media only screen and (max-width: 580px) {
-          .main-heading {
-            font-size: 24px;
-            font-weight: 700;
-          }
-          .secondry-heading {
-            font-size: 20px;
-          }
-          .textarea {
-            font-size: 14px;
-          }
-          .info-box {
-            padding: 8px 8px;
-          }
-          .info-box-label {
-            font-size: 16px;
-            font-weight: 700;
-          }
-          .info-box-value {
-            font-size: 14px;
-          }
-          .ask-acount {
-            font-size: 14px;
-          }
-        
-          .ask-acount a {
-            font-size: 14px;
-          }
-          .sign-input {
-            font-size: 16px;
-          }
-          .main {
-            min-height: calc(100vh - 190px);
-          }
-          .header-top {
-            height: 80px;
-            width: 100%;
-            background-color: var(--primary);
-          }
-          .logo img {
-            height: 60px;
-            width: auto;
-          }
-          .main-btn {
-            background: #22427a;
-            border-radius: 10px;
-            font-size: 16px;
-            letter-spacing: 0.65px;
-            color: #ffffff;
-            padding: 8px 40px;
-          }
-          .sign-text {
-            font-family: Bahnschrift;
-            font-size: 17px;
-            letter-spacing: 0.86px;
-            color: rgb(0, 0, 0);
-          }
-          .content-booking{
-            padding: 20px 0px !important;
-          }
-        }
-        @media only screen and (max-width:500px){
-          .order-details-card{
-            padding: 20px 10px;
-          }
-          .order-btn,
-          .order-btn-blank{
-            width: 100%;
-            margin-bottom: 10px;
-            font-size: 14px;
-            font-weight: 600;
-          }
-          .order-btns{
-            margin-top: 10px;
-          }
-        
-          .order-details p,
-.order-details a{
-  font-size: 12px;
-  font-weight: 500;
+@media only screen and (max-width: 1100px) {
+  .order-details-card {
+    background-color: #e9ebec;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .order-btns {
+    width: 100%;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    margin-top: 20px;
+  }
+  .order-text {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+  }
+  .status-col {
+    width: fit-content;
+    margin-bottom: 15px;
+  }
 }
-.order-details h3{
-  font-size: 14px;
+@media only screen and (min-width: 1700px) {
+  .sign-label {
+    font-size: 20px;
+  }
+  .sign-input {
+    font-size: 25px;
+    height: 68px;
+    border-radius: 10px;
+  }
+
+  .main-btn {
+    background: rgba(34, 66, 122, 1);
+    border-radius: 21px;
+    -moz-border-radius: 21px;
+    -webkit-border-radius: 21px;
+    font-size: 25px;
+    letter-spacing: 0.65px;
+    color: #ffffff;
+  }
+  .ask-acount {
+    font-size: 20px;
+  }
+
+  .ask-acount a {
+    font-size: 22px;
+  }
+  .logo {
+    height: 100px;
+  }
+  .main-heading {
+    font-size: 45px;
+  }
+  .sign-text {
+    font-family: Bahnschrift;
+    font-size: 33px;
+    letter-spacing: 0.86px;
+    color: rgb(0, 0, 0);
+  }
 }
-.tabcontent{
-  padding: 6px 0px;
+@media only screen and (max-width: 786px) {
+  .tab {
+    overflow-x: auto;
+  }
+  .tab button {
+    white-space: nowrap;
+  }
 }
-.search-row{
-  flex-direction: column;
-  align-items: flex-start;
+@media only screen and (max-width: 580px) {
+  .main-heading {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .secondry-heading {
+    font-size: 20px;
+  }
+  .textarea {
+    font-size: 14px;
+  }
+  .info-box {
+    padding: 8px 8px;
+  }
+  .info-box-label {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .info-box-value {
+    font-size: 14px;
+  }
+  .ask-acount {
+    font-size: 14px;
+  }
+
+  .ask-acount a {
+    font-size: 14px;
+  }
+  .sign-input {
+    font-size: 16px;
+  }
+  .main {
+    min-height: calc(100vh - 190px);
+  }
+  .header-top {
+    height: 80px;
+    width: 100%;
+    background-color: var(--primary);
+  }
+  .logo img {
+    height: 60px;
+    width: auto;
+  }
+  .main-btn {
+    background: #22427a;
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 0.65px;
+    color: #ffffff;
+    padding: 8px 40px;
+  }
+  .sign-text {
+    font-family: Bahnschrift;
+    font-size: 17px;
+    letter-spacing: 0.86px;
+    color: rgb(0, 0, 0);
+  }
+  .content-booking {
+    padding: 20px 0px !important;
+  }
 }
-.search-input{
-  width: 100%;
+@media only screen and (max-width: 500px) {
+  .order-details-card {
+    padding: 20px 10px;
+  }
+  .order-btn,
+  .order-btn-blank {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .order-btns {
+    margin-top: 10px;
+  }
+
+  .order-details p,
+  .order-details a {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .order-details h3 {
+    font-size: 14px;
+  }
+  .tabcontent {
+    padding: 6px 0px;
+  }
+  .search-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .search-input {
+    width: 100%;
+  }
+  .search-input input {
+    width: 100%;
+  }
 }
-.search-input input{
-  width: 100%;
-}
-        }
