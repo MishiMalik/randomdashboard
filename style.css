@@ -251,7 +251,7 @@ select:focus {
   border: 1px solid #ccc;
   padding: 7px 10px;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 14px;
   width: 280px;
 }
 .search-input .serach-icon{
