@@ -28,9 +28,5 @@ document.getElementById("overlay").addEventListener("click", () => {
   SIDEBAR_EL.classList.toggle("toggled");
 });
 
-const defaultOpenMenus = document.querySelectorAll(".menu-item.sub-menu.open");
 
-defaultOpenMenus.forEach((element) => {
-  element.lastElementChild.style.display = "block";
-});
 
