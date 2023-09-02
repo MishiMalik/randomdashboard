@@ -410,6 +410,34 @@ background-color: #2e5597;
 .page-link:focus{
   box-shadow: none !important;
 }
+.booking-label{
+  width: 300px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #ccc;
+  padding: 6px 10px;
+  border-radius: 4px;
+
+}
+.booking-input{
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-left: 15px !important;
+}
+.booking-value{
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  margin-left: 15px !important;
+  text-align: justify;
+}
+.request-box{
+  padding:5px 15px 15px 15px;
+  border: 1px solid #777676 !important;
+  border-radius: 10px;
+}
 /* 
 .tabs {
   display: flex;
