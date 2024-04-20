@@ -72,13 +72,25 @@ padding-left: 40px;
   position: relative;
   /* z-index: 100; */
 }
+.login-header{
+  height: 100vh;
+  background-image: url('../images/c934407a1cf19dc3c61f0f7060f5d362.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.login-form{
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.767);
+  border-radius: 10px;
+  min-width: 300px;
+}
 thead{
   background-color: #E51937;
   color: white !important;
 }
 .main-heading {
   /* font-family: Bahnschrift; */
-  font-size: 42px;
+  font-size: 26px;
   color: black;
   font-weight: 600;
 }
@@ -106,17 +118,23 @@ thead{
   font-weight: 500;
 }
 .sign-input {
-  border-radius: 8px;
-  border: 2px solid #7d7e7e;
-  font-size: 18px;
+  border-radius: 3px;
+  /* border: 2px solid #7d7e7e; */
+  font-size: 16px;
   letter-spacing: 0px;
   color: black;
-  font-weight: 400;
-  padding: 10px 15px;
-  height: 50px;
+  font-weight: 500;
+  padding:7px 15px;
+  width: 100%;
+}
+.sign-input:active,
+.sign-input:focus{
+  outline: none;
+  box-shadow: none;
 }
 .sign-input::placeholder {
   color: #777677;
+  font-weight: 500 !important;
 }
 .sign-input2 {
   border-radius: 8px;
@@ -148,8 +166,8 @@ thead{
   text-decoration: underline;
 }
 .main-btn {
-  background: #22427a;
-  background: rgba(34, 66, 122, 1);
+  background: #E51937;
+  background: #E51937;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -161,11 +179,11 @@ thead{
   text-decoration: none;
 }
 .main-btn:hover {
-  background-color: #153464;
+  background-color: #E51937;
 }
 .main-btn2 {
-  background: #22427a;
-  background: rgba(34, 66, 122, 1);
+  background: #E51937;
+  background: #E51937;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -306,7 +324,7 @@ select:focus {
   right: 0;
   bottom: 0;
   width: 40px;
-  background-color: #153464;
+  background-color: #E51937;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -350,7 +368,7 @@ select:focus {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  color: #153464;
+  color: #E51937;
   border-bottom: 2px solid #1f427b;
 }
 
@@ -435,7 +453,7 @@ select:focus {
 
 .active-page .page-link {
   color: white !important;
-  background-color: #153464 !important;
+  background-color: #E51937 !important;
 }
 .page-link:focus {
   box-shadow: none !important;
@@ -548,7 +566,7 @@ select:focus {
   }
 
   .main-btn {
-    background: rgba(34, 66, 122, 1);
+    background: #E51937;
     border-radius: 21px;
     -moz-border-radius: 21px;
     -webkit-border-radius: 21px;
@@ -633,7 +651,7 @@ select:focus {
     width: auto;
   }
   .main-btn {
-    background: #22427a;
+    background: #E51937;
     border-radius: 10px;
     font-size: 16px;
     letter-spacing: 0.65px;
