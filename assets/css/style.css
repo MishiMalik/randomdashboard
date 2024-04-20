@@ -11,6 +11,37 @@ body {
   width: 100%;
   background-color: var(--primary);
 }
+.header-search{
+  position: relative;
+}
+.header-search img{
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+.header-search input{
+width: 300px;
+height: 36px;
+background: #FFFFFF;
+border: 1px solid #DDDDDD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+color: #666666;
+/* Inside auto layout */
+padding-left: 40px;
+}
+.header-search input:focus,
+.header-search input:active{
+  outline: #E51937 !important;
+  border: 1px solid #E51937;
+}
 .logo {
   display: flex;
   justify-content: center;
@@ -34,6 +65,17 @@ body {
 }
 
 /* ===================================form */
+.main-contents-area{
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+  position: relative;
+  z-index: 100;
+}
+thead{
+  background-color: #E51937;
+  color: white !important;
+}
 .main-heading {
   /* font-family: Bahnschrift; */
   font-size: 42px;
@@ -188,7 +230,12 @@ body {
   letter-spacing: -0.7px;
   color: rgb(35, 31, 32);
 }
-
+.w-600{
+  font-weight: 600;
+}
+.header-text{
+  font-size: 22px;
+}
 /* ====================================================booking */
 .textarea {
   display: block;
@@ -456,6 +503,15 @@ select:focus {
         border-radius: 0px;
         margin-left: 4px;
         background-color: var(--primary); } */
+
+@media only screen and (max-width:1150px){
+  .header-text{
+    font-size: 16px;
+  }
+  .header-search input{
+    width: 200px;
+  }
+}
 @media only screen and (max-width: 1100px) {
   .order-details-card {
     background-color: #e9ebec;
@@ -521,14 +577,19 @@ select:focus {
   }
 }
 @media only screen and (max-width: 786px) {
+  .header-text{
+    font-size: 20px;
+  }
   .tab {
     overflow-x: auto;
   }
   .tab button {
     white-space: nowrap;
   }
+
 }
 @media only screen and (max-width: 580px) {
+  
   .main-heading {
     font-size: 24px;
     font-weight: 700;
@@ -624,5 +685,11 @@ select:focus {
   }
   .search-input input {
     width: 100%;
+  }
+}
+@media only screen and (max-width:330px){
+  .main-contents-area{
+    padding: 15px 0px;
+
   }
 }
