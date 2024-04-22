@@ -98,6 +98,7 @@ thead th{
 tbody td{
  font-size: 14px;
  font-weight: 400;
+ text-align: center;
 }
 tbody td button{
   background-color: transparent;
