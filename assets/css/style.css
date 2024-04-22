@@ -591,6 +591,14 @@ select:focus {
 .header-toolpit2{
   top: 40px !important;
 }
+.bootstrap-table .fixed-table-pagination>.pagination-detail .pagination-info{
+  font-size: 14px;
+}
+.page-item.active .page-link{
+  background-color: var(--primary) !important;
+  color: white !important;
+  border: none !important;
+}
 .arrow-down {
   width: 0;
   height: 0;
