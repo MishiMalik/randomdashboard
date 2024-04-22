@@ -1,7 +1,7 @@
 /* @import url(/assets/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF); */
 
 :root {
-  --primary: #1f427b;
+  --primary: #E51937;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -90,7 +90,7 @@ thead{
 }
 thead th{
   font-size: 14px !important;
-  /* padding: 5px !important; */
+  padding: 0px !important;
   /* vertical-align: middle !important; */
   text-align: center;
 
@@ -98,6 +98,36 @@ thead th{
 tbody td{
  font-size: 14px;
  font-weight: 400;
+}
+tbody td button{
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  color: black;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.modal-dialog-lg {
+  max-width: 700px;
+}
+
+.modal-body h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary);
+  text-transform: capitalize;
+}
+
+
+.modal-dialog-scrollable .modal-body::-webkit-scrollbar {
+  width: 7px;
+}
+
+
+.modal-dialog-scrollable .modal-body::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 4px;
 }
 .main-heading {
   /* font-family: Bahnschrift; */
