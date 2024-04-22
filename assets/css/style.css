@@ -88,6 +88,17 @@ thead{
   background-color: #E51937;
   color: white !important;
 }
+thead th{
+  font-size: 14px !important;
+  /* padding: 5px !important; */
+  /* vertical-align: middle !important; */
+  text-align: center;
+
+}
+tbody td{
+ font-size: 14px;
+ font-weight: 400;
+}
 .main-heading {
   /* font-family: Bahnschrift; */
   font-size: 26px;
