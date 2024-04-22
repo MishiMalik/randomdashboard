@@ -3,45 +3,52 @@
 :root {
   --primary: #E51937;
 }
+
 body {
   font-family: "Open Sans", sans-serif;
 }
+
 .header-top {
   height: 100px;
   width: 100%;
   background-color: var(--primary);
 }
-.header-search{
+
+.header-search {
   position: relative;
 }
-.header-search img{
+
+.header-search img {
   position: absolute;
   top: 8px;
   left: 10px;
 }
-.header-search input{
-width: 300px;
-height: 36px;
-background: #FFFFFF;
-border: 1px solid #DDDDDD;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 10px;
 
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-/* identical to box height, or 175% */
-color: #666666;
-/* Inside auto layout */
-padding-left: 40px;
+.header-search input {
+  width: 300px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  color: #666666;
+  /* Inside auto layout */
+  padding-left: 40px;
 }
+
 .header-search input:focus,
-.header-search input:active{
+.header-search input:active {
   outline: #E51937 !important;
   border: 1px solid #E51937;
 }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -53,9 +60,11 @@ padding-left: 40px;
   border: 2px solid white;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
+
 .logo img {
   object-fit: contain;
 }
+
 .main {
   min-height: calc(100vh - 244px);
   padding: 20px 0px;
@@ -65,42 +74,48 @@ padding-left: 40px;
 }
 
 /* ===================================form */
-.main-contents-area{
+.main-contents-area {
   background-color: white;
   border-radius: 20px;
   padding: 15px;
   position: relative;
   /* z-index: 100; */
 }
-.login-header{
+
+.login-header {
   height: 100vh;
   background-image: url('../images/c934407a1cf19dc3c61f0f7060f5d362.jpeg');
   background-position: center;
   background-size: cover;
 }
-.login-form{
+
+.login-form {
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.767);
   border-radius: 10px;
   min-width: 300px;
 }
-thead{
+
+thead {
   background-color: #E51937;
   color: white !important;
 }
-thead th{
+
+thead th {
   font-size: 14px !important;
   padding: 0px !important;
   /* vertical-align: middle !important; */
   text-align: center;
 
 }
-tbody td{
- font-size: 14px;
- font-weight: 400;
- text-align: center;
+
+tbody td {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
 }
-tbody td button{
+
+tbody td button {
   background-color: transparent;
   border: none;
   padding: 0;
@@ -108,13 +123,15 @@ tbody td button{
   font-size: 14px;
   text-decoration: underline;
 }
-.searches{
+
+.searches {
   font-size: 16px;
   color: var(--primary);
   font-weight: 500;
 
 }
-.searches .search-tag{
+
+.searches .search-tag {
   background-color: #ddd;
   color: black;
   padding: 5px 7px;
@@ -124,7 +141,8 @@ tbody td button{
   cursor: pointer;
   position: relative;
 }
-.delete-tag{
+
+.delete-tag {
   position: absolute;
   top: -7px;
   right: -5px;
@@ -140,16 +158,19 @@ tbody td button{
   padding-top: 2px;
   border: none;
 }
-.save-search-btn{
+
+.save-search-btn {
   margin-right: 500px;
   background-color: rgb(4, 196, 4);
   color: white !important;
   font-size: 14px;
   font-weight: 500;
 }
-#table-container{
+
+#table-container {
   margin-top: -48px;
 }
+
 .modal-dialog-lg {
   max-width: 700px;
 }
@@ -171,43 +192,51 @@ tbody td button{
   background-color: var(--primary);
   border-radius: 4px;
 }
- .fixed-table-body::-webkit-scrollbar {
- height: 7px;
+
+.fixed-table-body::-webkit-scrollbar {
+  height: 7px;
 }
 
 .fixed-table-body::-webkit-scrollbar-thumb {
   background-color: var(--primary);
   border-radius: 4px;
 }
+
 .main-heading {
   /* font-family: Bahnschrift; */
   font-size: 26px;
   color: black;
   font-weight: 600;
 }
+
 .font-open {
   font-family: "Open Sans", sans-serif !important;
 }
+
 .secondry-heading {
   font-weight: bold;
   font-size: 25px;
   letter-spacing: 0.78px;
   color: black;
 }
+
 .text {
   font-size: 14px;
   color: #777677;
 }
+
 .sign-label {
   font-size: 16px;
   color: #777778;
   font-weight: 600;
 }
+
 .sign-label2 {
   font-size: 14px;
   color: #777778;
   font-weight: 500;
 }
+
 .sign-input {
   border-radius: 3px;
   /* border: 2px solid #7d7e7e; */
@@ -215,18 +244,21 @@ tbody td button{
   letter-spacing: 0px;
   color: black;
   font-weight: 500;
-  padding:7px 15px;
+  padding: 7px 15px;
   width: 100%;
 }
+
 .sign-input:active,
-.sign-input:focus{
+.sign-input:focus {
   outline: none;
   box-shadow: none;
 }
+
 .sign-input::placeholder {
   color: #777677;
   font-weight: 500 !important;
 }
+
 .sign-input2 {
   border-radius: 8px;
   border: 2px solid #7d7e7e;
@@ -237,9 +269,11 @@ tbody td button{
   padding: 10px 10px;
   height: 45px;
 }
+
 .sign-input2::placeholder {
   color: #777677;
 }
+
 .ask-acount {
   font-size: 16px;
   font-weight: 600;
@@ -253,9 +287,11 @@ tbody td button{
   font-weight: bold;
   text-decoration: none;
 }
+
 .ask-acount a:hover {
   text-decoration: underline;
 }
+
 .main-btn {
   background: #E51937;
   background: #E51937;
@@ -269,9 +305,11 @@ tbody td button{
   border: none;
   text-decoration: none;
 }
+
 .main-btn:hover {
   background-color: #E51937;
 }
+
 .main-btn2 {
   background: #E51937;
   background: #E51937;
@@ -285,21 +323,23 @@ tbody td button{
   border: none;
   text-decoration: none;
 }
+
 .sign-text {
   font-family: Bahnschrift;
   font-size: 20px;
   letter-spacing: 0.86px;
   color: rgb(0, 0, 0);
 }
+
 /* =====================================account info */
-.display-pictute {
+/* .display-pictute {
   width: 144px;
   height: 144px;
   border-radius: 100%;
   object-fit: cover;
   position: relative;
-  /* overflow: hidden; */
 }
+
 .display-pictute img {
   object-fit: cover;
   width: 144px;
@@ -307,6 +347,7 @@ tbody td button{
   border: 2px solid #ddd;
   border-radius: 100%;
 }
+
 .upload-img-btn {
   border: none;
   padding: none;
@@ -316,49 +357,56 @@ tbody td button{
   bottom: 10px;
   right: -20px;
 }
+
 .upload-img-btn label img {
   height: 50px;
   width: auto;
   cursor: pointer;
 }
+
 .info-box {
   padding: 10px 10px;
   border-bottom: 1px solid #ddd;
 }
+
 .info-box:hover {
   background-color: #f3f3f3;
 }
+
 .info-box-label {
   font-weight: 600;
   font-size: 20px;
   letter-spacing: -0.7px;
   color: #231f20;
 }
+
 .info-box-value {
   font-size: 18px;
   letter-spacing: -0.7px;
   color: rgb(35, 31, 32);
-}
-.w-600{
+} */
+
+.w-600 {
   font-weight: 600;
 }
-.header-text{
+
+.header-text {
   font-size: 22px;
 }
+
 /* ====================================================booking */
-.textarea {
+/* .textarea {
   display: block;
   width: 100%;
   overflow: hidden;
   resize: vertical;
-  /* min-height: 90px; */
   line-height: 20px;
   box-sizing: border-box;
   border: 2px solid #7c7c7c;
   background-color: white;
   padding: 10px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif; /* ADDED */
+  font-family: "Roboto", sans-serif;
   border-radius: 8px;
 }
 
@@ -370,7 +418,8 @@ tbody td button{
 .textarea[contenteditable]:empty::before {
   content: "Placeholder is possible";
   color: gray;
-}
+} */
+
 input,
 textarea,
 select {
@@ -398,10 +447,12 @@ select:focus {
   justify-content: space-between;
   align-items: center;
 }
+
 .search-input {
   position: relative;
   overflow: hidden;
 }
+
 .search-input input {
   border: 1px solid #ccc;
   padding: 7px 10px;
@@ -409,6 +460,7 @@ select:focus {
   font-size: 14px;
   width: 280px;
 }
+
 .search-input .serach-icon {
   position: absolute;
   top: 0px;
@@ -422,6 +474,7 @@ select:focus {
   z-index: 10;
   border-radius: 0 6px 6px 0;
 }
+
 .search-input i {
   color: white;
   font-size: 16px;
@@ -472,6 +525,7 @@ select:focus {
   margin-top: 20px;
   /* background-color:#ddd ; */
 }
+
 .order-details-card {
   background-color: #e9ebec;
   padding: 20px;
@@ -479,6 +533,7 @@ select:focus {
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .order-btn {
   background-color: #1f427b;
   border: none;
@@ -491,6 +546,7 @@ select:focus {
   width: 230px;
   border: 2px solid #1f427b !important;
 }
+
 .order-btn-blank {
   background-color: transparent;
   border: none;
@@ -504,6 +560,7 @@ select:focus {
   border: 2px solid #1f427b !important;
   text-align: center;
 }
+
 .status-col {
   color: white;
   font-size: 14px;
@@ -512,30 +569,38 @@ select:focus {
   border-radius: 4px;
   height: fit-content;
 }
+
 .pending {
   background-color: #fed82b;
 }
+
 .progress {
   background-color: #2e5597;
 }
+
 .approved {
   background-color: #5f9c79;
 }
+
 .cancelled {
   background-color: rgb(243, 31, 31);
 }
+
 .returned {
   background-color: rgb(201, 117, 8);
 }
+
 .order-details p,
 .order-details a {
   font-size: 14px;
   font-weight: 500;
 }
+
 .order-details h3 {
   font-size: 16px;
   font-weight: 600;
 }
+
 .pagination .page-item .page-link {
   color: black;
   font-size: 16px;
@@ -546,9 +611,11 @@ select:focus {
   color: white !important;
   background-color: #E51937 !important;
 }
+
 .page-link:focus {
   box-shadow: none !important;
 }
+
 .booking-label {
   width: 300px;
   text-align: left;
@@ -558,12 +625,14 @@ select:focus {
   padding: 6px 10px;
   border-radius: 4px;
 }
+
 .booking-input {
   font-size: 16px;
   border-radius: 4px;
   border: 1px solid #ccc;
   margin-left: 15px !important;
 }
+
 .booking-value {
   font-size: 16px;
   font-weight: 500;
@@ -571,6 +640,7 @@ select:focus {
   margin-left: 15px !important;
   text-align: justify;
 }
+
 .request-box {
   padding: 5px 15px 15px 15px;
   border: 1px solid #777676 !important;
@@ -596,17 +666,21 @@ select:focus {
   display: none;
 
 }
-.header-toolpit2{
+
+.header-toolpit2 {
   top: 40px !important;
 }
-.bootstrap-table .fixed-table-pagination>.pagination-detail .pagination-info{
+
+.bootstrap-table .fixed-table-pagination>.pagination-detail .pagination-info {
   font-size: 14px;
 }
-.page-item.active .page-link{
+
+.page-item.active .page-link {
   background-color: var(--primary) !important;
   color: white !important;
   border: none !important;
 }
+
 .arrow-down {
   width: 0;
   height: 0;
@@ -618,7 +692,11 @@ select:focus {
   left: 10px;
   display: none;
 }
-.th-inner{overflow: visible !important;}
+
+.th-inner {
+  overflow: visible !important;
+}
+
 .th-inner:hover .arrow-down,
 .th-inner:hover .header-toolpit {
   display: block;
@@ -663,14 +741,16 @@ select:focus {
         margin-left: 4px;
         background-color: var(--primary); } */
 
-@media only screen and (max-width:1150px){
-  .header-text{
+@media only screen and (max-width:1150px) {
+  .header-text {
     font-size: 16px;
   }
-  .header-search input{
+
+  .header-search input {
     width: 200px;
   }
 }
+
 @media only screen and (max-width: 1100px) {
   .order-details-card {
     background-color: #e9ebec;
@@ -686,20 +766,24 @@ select:focus {
     align-items: flex-start !important;
     margin-top: 20px;
   }
+
   .order-text {
     flex-direction: column;
     justify-content: flex-start;
     align-items: self-start;
   }
+
   .status-col {
     width: fit-content;
     margin-bottom: 15px;
   }
 }
+
 @media only screen and (min-width: 1700px) {
   .sign-label {
     font-size: 20px;
   }
+
   .sign-input {
     font-size: 25px;
     height: 68px;
@@ -715,6 +799,7 @@ select:focus {
     letter-spacing: 0.65px;
     color: #ffffff;
   }
+
   .ask-acount {
     font-size: 20px;
   }
@@ -722,12 +807,15 @@ select:focus {
   .ask-acount a {
     font-size: 22px;
   }
+
   .logo {
     height: 100px;
   }
+
   .main-heading {
     font-size: 45px;
   }
+
   .sign-text {
     font-family: Bahnschrift;
     font-size: 33px;
@@ -735,50 +823,63 @@ select:focus {
     color: rgb(0, 0, 0);
   }
 }
+
 @media only screen and (max-width: 768px) {
-  .header-text{
+  .header-text {
     font-size: 20px;
   }
+
   .tab {
     overflow-x: auto;
   }
+
   .tab button {
     white-space: nowrap;
   }
-  .save-search-btn{
+
+  .save-search-btn {
     margin-right: 0px;
     margin-top: 70px;
     width: 100%;
   }
-  #table-container{
+
+  #table-container {
     margin-top: 0;
   }
-  .bootstrap-table.bootstrap5 .float-right{
+
+  .bootstrap-table.bootstrap5 .float-right {
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 580px) {
 
   .main-heading {
     font-size: 24px;
     font-weight: 700;
   }
+
   .secondry-heading {
     font-size: 20px;
   }
+
   .textarea {
     font-size: 14px;
   }
+
   .info-box {
     padding: 8px 8px;
   }
+
   .info-box-label {
     font-size: 16px;
     font-weight: 700;
   }
+
   .info-box-value {
     font-size: 14px;
   }
+
   .ask-acount {
     font-size: 14px;
   }
@@ -786,21 +887,26 @@ select:focus {
   .ask-acount a {
     font-size: 14px;
   }
+
   .sign-input {
     font-size: 16px;
   }
+
   .main {
     min-height: calc(100vh - 190px);
   }
+
   .header-top {
     height: 80px;
     width: 100%;
     background-color: var(--primary);
   }
+
   .logo img {
     height: 60px;
     width: auto;
   }
+
   .main-btn {
     background: #E51937;
     border-radius: 10px;
@@ -809,20 +915,24 @@ select:focus {
     color: #ffffff;
     padding: 8px 40px;
   }
+
   .sign-text {
     font-family: Bahnschrift;
     font-size: 17px;
     letter-spacing: 0.86px;
     color: rgb(0, 0, 0);
   }
+
   .content-booking {
     padding: 20px 0px !important;
   }
 }
+
 @media only screen and (max-width: 500px) {
   .order-details-card {
     padding: 20px 10px;
   }
+
   .order-btn,
   .order-btn-blank {
     width: 100%;
@@ -830,6 +940,7 @@ select:focus {
     font-size: 14px;
     font-weight: 600;
   }
+
   .order-btns {
     margin-top: 10px;
   }
@@ -839,25 +950,31 @@ select:focus {
     font-size: 12px;
     font-weight: 500;
   }
+
   .order-details h3 {
     font-size: 14px;
   }
+
   .tabcontent {
     padding: 6px 0px;
   }
+
   .search-row {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .search-input {
     width: 100%;
   }
+
   .search-input input {
     width: 100%;
   }
 }
-@media only screen and (max-width:330px){
-  .main-contents-area{
+
+@media only screen and (max-width:330px) {
+  .main-contents-area {
     padding: 15px 0px;
 
   }
