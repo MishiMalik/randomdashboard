@@ -171,6 +171,14 @@ tbody td button{
   background-color: var(--primary);
   border-radius: 4px;
 }
+ .fixed-table-body::-webkit-scrollbar {
+ height: 7px;
+}
+
+.fixed-table-body::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 4px;
+}
 .main-heading {
   /* font-family: Bahnschrift; */
   font-size: 26px;
