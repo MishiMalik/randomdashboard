@@ -574,7 +574,9 @@ a {
     color: transparent !important;
     border-top: 1px solid rgba(83, 93, 125, 0.5)
 }
-
+.sidebar.sidebar.collapsed .searches{
+    display: none;
+}
 .sidebar .menu-heading {
     color: #ccc !important;
     font-weight: 600;
