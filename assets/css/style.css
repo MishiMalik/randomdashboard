@@ -117,11 +117,38 @@ tbody td button{
 .searches .search-tag{
   background-color: #ddd;
   color: black;
-  padding: 3px 7px;
+  padding: 5px 7px;
   border-radius: 3px;
   text-align: center;
   font-weight: 500;
   cursor: pointer;
+  position: relative;
+}
+.delete-tag{
+  position: absolute;
+  top: -7px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding-top: 2px;
+  border: none;
+}
+.save-search-btn{
+  margin-right: 500px;
+  background-color: rgb(4, 196, 4);
+  color: white !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+#table-container{
+  margin-top: -48px;
 }
 .modal-dialog-lg {
   max-width: 700px;
@@ -541,6 +568,48 @@ select:focus {
   border: 1px solid #777676 !important;
   border-radius: 10px;
 }
+
+.th-inner {
+  position: relative;
+  cursor: pointer;
+}
+
+.header-toolpit {
+  position: absolute;
+  /* width: 200px; */
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  color: white;
+  background-color: #000000d0;
+  top: 64px;
+  left: 0;
+  z-index: 100;
+  display: none;
+
+}
+.header-toolpit2{
+  top: 40px !important;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #000000d0;
+  position: absolute;
+  bottom: 2px;
+  left: 10px;
+  display: none;
+}
+.th-inner{overflow: visible !important;}
+.th-inner:hover .arrow-down,
+.th-inner:hover .header-toolpit {
+  display: block;
+}
+
+
+
 /* 
 .tabs {
   display: flex;
@@ -650,7 +719,7 @@ select:focus {
     color: rgb(0, 0, 0);
   }
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 768px) {
   .header-text{
     font-size: 20px;
   }
@@ -660,10 +729,20 @@ select:focus {
   .tab button {
     white-space: nowrap;
   }
-
+  .save-search-btn{
+    margin-right: 0px;
+    margin-top: 70px;
+    width: 100%;
+  }
+  #table-container{
+    margin-top: 0;
+  }
+  .bootstrap-table.bootstrap5 .float-right{
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 580px) {
-  
+
   .main-heading {
     font-size: 24px;
     font-weight: 700;
