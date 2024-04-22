@@ -12,3 +12,23 @@
       modal.hide();
     });
   });
+
+
+   // JavaScript
+   window.addEventListener('DOMContentLoaded', function() {
+    // Function to check viewport width and toggle 'collapsed' class
+    function toggleSidebarCollapse() {
+        var sidebar = document.getElementById('sidebar');
+        if (window.innerWidth < 991) {
+            sidebar.classList.remove('collapsed');
+        } else {
+            sidebar.classList.add('collapsed');
+        }
+    }
+
+    // Initial call to set the initial state
+    toggleSidebarCollapse();
+
+    // Listen for window resize events to update sidebar collapse state
+    window.addEventListener('resize', toggleSidebarCollapse);
+});

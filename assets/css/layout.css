@@ -651,4 +651,9 @@ a {
     .layout .content{
         padding: 14px 10px;
     }
+    .layout .sidebar.collapsed {
+        width: unset;
+        min-width: unset;
+    }
+   
 }
